@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to bottom, rgb(161, 63, 145), rgb(143, 40, 126));
+    background-size: cover;
+}
+#box{
+    width: 25%;
+    background-color: white;
+    margin: 100px auto 109px;
+    padding: 5px 0px 20px 0px;
+}
+.container{
+    width: 90%;
+    margin: 10px auto;
+}
+h1{
+    border-bottom: 1px solid rgb(184, 179, 179);
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 15px 0px;
+    color: rgb(184, 179, 179);
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#s{
+    color: rgb(116, 29, 101);
+}
+ul{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    border-bottom: 1px solid rgb(184, 179, 179);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ul li{
+    display: block;
+    height: 25px;
+}
+.inputgroup{
+    width: 100%;
+    box-sizing: border-box; 
+    margin: 5px 0px 20px 0px; 
+    padding: 10px;
+    border: 1px solid rgb(184, 179, 179);
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputgroup:hover{
+    background-color: aliceblue;
+}
+button{
+    width: 100%;
+    margin: 20px 0px 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: teal;
+    border: 1px solid mediumturquoise;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color: rgb(31, 148, 144);
+}
+a{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: rgb(63, 189, 184);
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#down{
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8em;
+    color: rgb(63, 189, 184);
+    margin: 20px 0px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,
+}
+.error{
+    width: 80%;
+    background-color: #f2dede;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px auto;
+    text-align: left;
+    color: #a94442;
+    border: 1px solid #a94442;
+    margin-bottom: 5px;
+}
+.success{
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 5px;
+}
